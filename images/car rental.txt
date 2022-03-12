@@ -1,0 +1,118 @@
+<html><head>
+<title>HomePage</title>
+<link href="Images\style.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+<!--
+.style1 {color: Yellow}
+-->
+</style>
+</head><body background="Images\2.jpg">
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+  <tbody><tr>
+    <td style="background-repeat: repeat-z;" background="smartcity1.jpg" valign="top"><table align="center" border="0" cellpadding="0" cellspacing="0" width="980">
+      <tbody><tr>
+        <td height="54">&nbsp;</td>
+        <td><table border="0" cellpadding="0" cellspacing="0" width="100%">
+          <tbody><tr>
+            <td width="25%"><h1 class="style1" align="center">India <br>Rental Services</h1></td>
+            <td class="smtxtwhite" valign="bottom" width="69%"></td>
+          </tr>
+        </tbody></table></td>
+        <td width="0">&nbsp;</td>
+      </tr>
+      <tr>
+        <td background="Images\link_bg.jpg"><img src="Images\link_bg.jpg" width="0" height="100"></td>
+        <td>
+        <img src="images.jpg" alt="Smart City" width="320" height="200"><img src="images1.jpg" alt="Smart City" width="320" height="200"><img src="images3.jpg" alt="Car Rental Services" width="300" height="200"><img src="vhoa0.jpg" alt="Smart City" width="320" height="200">
+        </td>
+        <td background="Images\link_bg.jpg"><img src="Images\link_bg.jpg" width="0"></td>
+      </tr>
+      <tr>
+        <td background="Images\link_bg.jpg">&nbsp;</td>
+        <td style="background-repeat: repeat-x;" class="headermenu" background="Images\link_bg.jpg" bgcolor="#ffffff">
+        <div align="center">
+        <a href="homesmartcity.html">HOME</a>
+        <img src="Images\link_sep.jpg" align="absmiddle" width="10" height="60" hspace="30">
+        <a href="98 smart cities nominations.jpg">CITY PROFILE</a>
+        <img src="Images\link_sep.jpg" align="absmiddle" width="10" height="60" hspace="30">
+        <a href="">ATTRACTIONS</a>
+        <img src="Images\link_sep.jpg" align="absmiddle" width="10" height="60" hspace="30">
+        <a href="history.html">HISTORY</a>
+        <img src="Images\link_sep.jpg" align="absmiddle" width="10" height="60" hspace="30">
+        <a href="">DOWNLOADS</a>
+        <img src="Images\link_sep.jpg" align="absmiddle" width="10" height="60" hspace="30">
+        <a href="india_tourist_map.jpg" target="_self">TRAVELS GUIDE</a>
+        <img src="Images\link_sep.jpg" align="absmiddle" width="10" height="60" hspace="30">
+        <a href="indiamap.jpg">India Map</a>
+        <img src="Images\link_sep.jpg" align="absmiddle" width="10" height="60" hspace="30">
+        <a href="contact.html">CONTACTUS</a> </div></td>
+        <td background="Images\link_bg.jpg">&nbsp;</td>
+      </tr>
+     </tbody></table></td>
+  </tr>
+</tbody></table>
+
+<marquee height="20" vspace="5" hspace="15" style="color:#22AAA1;font-size:15px;border: double;">Welcome to Smart City</marquee>
+<img src="Images\rgt_sep.jpg"><img src="Images\rgt_sep.jpg"><img src="Images\rgt_sep.jpg"><img src="Images\rgt_sep.jpg">
+<table align="center" width="100%">
+<tr><td align="left">
+<div class="sidenav A">
+<fieldset><legend><img src="Images\btn-view.gif"></legend>
+<a href="atm.jpg " target="_self">ATM Locations</a><br>
+<a href="Bank locations.jsp">Banks</a><br>
+<a href="beautyparlour.html">Beauty Parlors</a><br>
+<a href="blood-donaion-7ps-11-638.jpg">Blood Banks</a><br>
+<a href="best selling car.jpg">Best Car Selling</a><br>
+<a href="#">Consultants</a><br>
+<a href="emergency number.jpg">Emergency</a><br>
+<a href="Functionhalls.jsp">Function Halls</a><br>
+<a href="#">Gas Dealers</a><br>
+<a href="#">Health Line</a><br>
+<a href="movie thearter.html">Movie Theaters</a><br>
+<a href="industries.html">Industeries</a><ul>
+<a href="list-of-famous-temples-of-india-3-638.jpg">Temples</a></fieldset>
+</div></td>
+<td>
+<table>
+<tr>
+<td><img src="jakhutemple.jpg" width="200" height="150"/></td><td><img src="goldentemple.jpg" height="150" width="200"/></td><td><img src="kedarnath.jpg" height="150" width="200"/></td></tr>
+<tr><td>Himachal Temple</td><td>Punjab Temple</td><td>Uttarakhand Temple</td></tr>
+</table>
+</td><td align="right">
+<div class="sidenav">
+<fieldset style="border: double;color:purple;">
+<legend align="center" ><img src="login.jpg"  width="50" height="50" alt="Login"></legend>
+<form method="post"  action="open_Home.jsp" name="form1" onSubmit="return check1()">
+<table align="center" border="2">
+<tr>
+<th align="right">Userid:</th>
+<td align="left"><input type="text" name="uid"></td>
+<td align="center"><p id="f1"></p></td>
+</tr>
+<tr>
+<th align="right">Password:</th>
+<td align="left"><input type="password" name="pwd" onblur="check1()"></td>
+<td align="center"><p id="f2"></p></td>
+</tr>
+<tr>
+<td colspan="2" align="center"><input type="submit" value="Submit" ></td>
+</tr>
+<tr>
+<td colspan="2" align="center"><p id="f3">
+<tr><td align="right"><a href="fg.jsp">Forget Password?</a></td><td colspan="2" align="left"><a href="Registrationform.jsp">Sign Up</a></td></tr>
+</table>
+</form>
+</fieldset>
+<table border="3" width="250"><tr><td><marquee direction="up" scrolldelay="250" onmouseover="wait()"><div class="small">Events@india On 20-10-2020</div>Food Festival @ <img src="Images\dolphin_hotel_logo.jpg"/ alt="Dolphin Hotel"></marquee></td></tr></table>
+</div>
+</td></tr></table>
+
+<img src="Images\rgt_sep.jpg"><img src="Images\rgt_sep.jpg"><img src="Images\rgt_sep.jpg"><img src="Images\rgt_sep.jpg">     
+<div class="more" align="right">:: <a href="http://www.vizaghotels.net/vizag_hotels.htm">more &gt;&gt;</a></div>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+  <tr>
+    <td  colspan="2" bgcolor="#ded7d6"><img src="Images\spacer.gif" width="980" height="3"></td><td></td>
+  </tr>
+</table>
+</body>
+</html>

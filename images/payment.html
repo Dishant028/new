@@ -1,0 +1,245 @@
+
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {
+  font-family: Arial;
+  font-size: 17px;
+  padding: 8px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  margin: 0 -16px;
+}
+
+.col-25 {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+}
+
+.col-50 {
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
+}
+
+.col-75 {
+  -ms-flex: 75%; /* IE10 */
+  flex: 75%;
+}
+
+.col-25,
+.col-50,
+.col-75 {
+  padding: 0 16px;
+}
+
+.container {
+  background-color: #f2f2f2;
+  padding: 5px 20px 15px 20px;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+}
+
+input[type=text] {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+label {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.icon-container {
+  margin-bottom: 20px;
+  padding: 7px 0;
+  font-size: 24px;
+}
+
+.btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  width: 100%;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.btn:hover {
+  background-color: #45a049;
+}
+
+a {
+  color: #2196F3;
+}
+
+hr {
+  border: 1px solid lightgrey;
+}
+
+span.price {
+  float: right;
+  color: grey;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (also change the direction - make the "cart" column go on top) */
+@media (max-width: 800px) {
+  .row {
+    flex-direction: column-reverse;
+  }
+  .col-25 {
+    margin-bottom: 20px;
+  }
+}
+</style>
+</head>
+<body>
+
+<h2>WELCOME TO CANNON CAR RENTAL</h2>
+<p>Online car booking payment.</p>
+<div class="row">
+  <div class="col-75">
+    <div class="container">
+      <form action="/action_page.php">
+      
+        <div class="row">
+          <div class="col-50">
+            <h3>Billing Address</h3>
+            <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="John M. Doe">
+            <label for="email"><i class="fa fa-envelope"></i> Email</label>
+            <input type="text" id="email" name="email" placeholder="john@example.com">
+            <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
+            <input type="text" id="adr" name="address" placeholder="542 W. 15th Street">
+            <label for="city"><i class="fa fa-institution"></i> City</label>
+            <input type="text" id="city" name="city" placeholder="New York">
+
+            <div class="row">
+              <div class="col-50">
+                <label for="state">State</label>
+                <input type="text" id="state" name="state" placeholder="NY">
+              </div>
+              <div class="col-50">
+                <label for="zip">Zip</label>
+                <input type="text" id="zip" name="zip" placeholder="10001">
+              </div>
+            </div>
+          </div>
+
+          <div class="col-50">
+            <h3>Payment</h3>
+            <label for="fname">Accepted Cards</label>
+            <div class="icon-container">
+              <i class="fa fa-cc-visa" style="color:navy;"></i>
+              <i class="fa fa-cc-amex" style="color:blue;"></i>
+              <i class="fa fa-cc-mastercard" style="color:red;"></i>
+              <i class="fa fa-cc-discover" style="color:orange;"></i>
+            </div>
+            <label for="cname">Name on Card</label>
+            <input type="text" id="cname" name="cardname" placeholder="John More Doe">
+            <label for="ccnum">Credit card number</label>
+            <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+            <label for="expmonth">Exp Month</label>
+            <input type="text" id="expmonth" name="expmonth" placeholder="September">
+
+
+            <div class="row">
+              <div class="col-50">
+                <label for="expyear">Exp Year</label>
+                <input type="text" id="expyear" name="expyear" placeholder=" ">
+
+              </div>
+              <div class="col-50">
+                <label for="cvv">CVV</label>
+                <input type="text" id="cvv" name="cvv" placeholder="352">
+Amount
+<select name=pob>
+<option></option>
+<option>Rupees</option>
+<option>4000</option>
+<option>5000</option>
+<option>6000</option>
+<option>7000</option>
+<option>8000</option>
+<option>9000</option>
+<option>10000</option>
+<option>12000</option>
+<option>15000</option>
+<option>17000</option>
+<option>18000</option>
+<option>20000</option>
+<option>21000</option>
+<option>22000</option>
+<option>25000</option>
+<option>28000</option>
+<option>30000</option>
+<option>35000</option>
+<option>40000</option>
+<option>45000</option>
+<option>48000</option>
+<option>50000</option>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+        <label>
+          <input type="checkbox" checked="checked" name="sameadr"> Booking Payment
+        </label>
+        <input type="submit" value="Continue to Booking" class="btn">
+      </form>
+    </div>
+  </div>
+  <div class="col-25">
+    <div class="container">
+      <h4>Booking Charges <span class="price" style="color:black"><i class="fa fa-Cars-cart"></i> <b>25</b></span></h4>
+      <p><a href="#">VEHICALS NAME </a> <span class="price">RENT IN RUPEES</span></p>
+      <p><a href="#">Innova 2014 </a> <span class="price">5000/-</span></p>
+      <p><a href="#">Innova Crysta 2020</a> <span class="price">8000/-</span></p>
+      <p><a href="#">Thar 2021 </a> <span class="price">7000/-</span></p>
+<p><a href="#">Thar 2018 </a> <span class="price">6000/-</span></p>
+<p><a href="#">Bolero 2016 </a> <span class="price">4000/-</span></p>
+<p><a href="#">Bolero 2020 </a> <span class="price">6000/-</span></p>
+<p><a href="#">Range Rover 2018 </a> <span class="price">20000/-</span></p>
+<p><a href="#">Scarpio 2021 </a> <span class="price">8000/-</span></p>
+<p><a href="#">Scarpio 2018 </a> <span class="price">6000/-</span></p>
+<p><a href="#">Cruze 2018 </a> <span class="price">10000/-</span></p>
+<p><a href="#">Comaro 2017</a> <span class="price">25000/-</span></p>
+<p><a href="#">Dodge Challenger 2015</a> <span class="price">30000/-</span></p>
+<p><a href="#">Dodge Charger 2016</a> <span class="price">25000/-</span></p>
+<p><a href="#">G wagon 2017</a> <span class="price">40000/-</span></p>
+<p><a href="#">Suburan 2016</a> <span class="price">10000/-</span></p>
+<p><a href="#">Cruze 2016</a> <span class="price">9000/-</span></p>
+<p><a href="#">Cruze 2014</a> <span class="price">8000/-</span></p>
+<p><a href="#">Tata Truck 2016</a> <span class="price">15000/-</span></p>
+<p><a href="#">Ashoka Leyland 2020 </a> <span class="price">22000/-</span></p>
+<p><a href="#">Ashoka Leyland 2018</a> <span class="price">20000/-</span></p>
+<p><a href="#">Tata Truck 2019</a> <span class="price">18000/-</span></p>
+<p><a href="#">Peterbilt Model 579</a> <span class="price">50000/-</span></p>
+<p><a href="#">Peterbilt Model 367</a> <span class="price">45000/-</span></p>
+<p><a href="#">Peterbilt Model 389</a> <span class="price">48000/-</span></p>
+<p><a href="#">Fortuner 2021</a> <span class="price">15000/-</span></p>
+      <hr>
+      
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,12 @@
+<html>
+    
+    <body> 
+    
+     <a href="<a href="payment.html">">
+      <input type="submit"/>
+     </a>
+    
+    </body>
+    
+  </html>
+  
