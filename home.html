@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+.h1{
+    color: aqua;
+}
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+.about-section h1{
+    color:red;
+    font-size: 70px;
+    text-decoration: solid;
+}
+.about-section h2{
+    font-size: 30px;
+    color:green;
+    text-decoration:double;
+}
+.about-section p{
+    font-size: 20px;
+    color:yellow;
+}
+
+</style>
+</head>
+<body>
+
+<div class="about-section">
+  <h1>ABOUT US</h1>
+  <h2></h2>
+  <p>we also aim to bring in innovative trekking practises to take trekking in India to the next level. For this, we organise treks where you are introduced to the Indiahikes Experience.</p>
+  <h2>We Are Deeply Caring</h2>
+  <p>Indiahikes is known to be a very caring organisation. We go out of our way to care for our trekkers, our colleagues and our organisation. It is another extension of being humble. You’ll notice this in every interaction with Indiahikes, where our team members go out of their way to care, always putting others ahead of themselves. Trekkers deeply appreciate this value about Indiahikes — even those not trekking with us.</p>
+  <p>Resize the browser window to see that this page is responsive by the way.</p>
+  <h2>We Value Humility</h2>
+  <p>Humility is the biggest trait we look for in our team members. Even if an applicant is highly skilled, but not humble, we do not take them. You’ll find this as a virtue among all team members at Indiahikes — whether it’s our founders, our Trek Leaders or our local staff members. It makes everyone down to earth, open to feedback and eager to learn. This is something we highly value.</p>
+  <h2>Safety in Indian trekking</h2>
+  <p>Indiahikes has always been at the forefront in bringing in new safety practices into Indian trekking. Microspikes for walking on snow was introduced by Indiahikes. Emergency bottled oxygen on all treks was made mandatory by Indiahikes. So was using pulse oxymeters to test pulse and oxygen saturation levels. Radio as safety communication device was introduced in treks by Indiahikes.</p>
+</div>
+
+<h2 style="text-align:center;color: chocolate;font-size: 30px;">OUR TEAM</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="./images/509c2cbb-746d-4c54-8497-1cf6278ee668.jpeg" alt="Jane" style="width:100%">
+      <div class="container">
+        <h2>Jane Doe</h2>
+        <p class="title">CEO & Founder</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>jane@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="./images/509c2cbb-746d-4c54-8497-1cf6278ee668.jpeg" alt="Mike" style="width:100%">
+      <div class="container">
+        <h2>Mike Ross</h2>
+        <p class="title">Art Director</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>mike@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="./images/509c2cbb-746d-4c54-8497-1cf6278ee668.jpeg" alt="John" style="width:100%">
+      <div class="container">
+        <h2>John Doe</h2>
+        <p class="title">Designer</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>john@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

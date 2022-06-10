@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+.h1{
+    color: aqua;
+}
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+.about-section h1{
+    color:red;
+    font-size: 70px;
+    text-decoration: solid;
+}
+.about-section h2{
+    font-size: 40px;
+    color:green;
+    text-decoration:double;
+}
+.about-section p{
+    font-size: 20px;
+    color:yellow;
+}
+
+</style>
+</head>
+<body>
+
+<div class="about-section">
+  <h1>PRIVACY POLICY</h1>
+  <p>Trekmunk is committed to protecting your personal information. We value your trust in us. We want you to understand our Privacy Policy and what it means to you. If you have any questions about our Privacy Policy, you can contact our Privacy Officer at contact@trekmunk.com or through the contact information posted below.</p>
+  <h2>What is personal information and how do we use or disclose it?</h2>
+  <p>Personal information is information about an identifiable individual and includes your name, contact information, travel itinerary and other information described below. This Privacy Policy explains how we use and safeguard your information. 
+Our goal is to provide you safe, efficient, smooth, valuable and customized services according to your needs and we only collect personal information about you that we consider necessary for achieving this purpose.</p>
+<h2>Booking Travel</h2>
+<p>Trekmunk may collect, use or disclose your personal information, either directly or through our agency and booking partners, for the purposes of offering or booking travel services on your behalf, such as your name, age, address, phone number, e-mail address, emergency contact information, passport information, travel medical information (where required), insurance details, ISIC information (where applicable), nationality, residency, nutrition preferences, trip evaluations, travel and accommodation preferences, comments you provide us, trip destination information, and payment-related information. This personal information enables us to provide you with trip information, booking flights, accommodations, process payments, and provide other ancillary travel services.
+If you book a Trekmunk's trip/trek/tour, Trekmunk may rely on local service providers. Please be aware that Trekmunk may be required to provide certain personal information to our service providers for the purposes of delivering you required travel services. When you book travel services with us, you consent to the collection, use and disclosure of your personal information by Trekmunk and the corresponding collection and use by the relevant travel partners or suppliers for the purposes of administering and delivering the travel services you requested.</p>
+<h2>Service Provider Arrangements</h2>
+<p>In addition to the third party travel suppliers outlined above, Trekmunk may transfer your personal information to third parties who provide services on our behalf. For example, we may use service providers to authorize and process payments, host our customer service operations, serve advertisements on our website, send an email or other communications, or run our contests and promotions. Your personal information may be maintained and processed by our service providers in India or other jurisdictions. For information about the policies or practices of our service providers, please contact us at the email address above. Our service providers are given the information they need to perform their designated functions, and we do not authorize them to use or disclose your personal information for their own purposes.</p>
+<h2>Contact Us</h2>
+<p>We welcome your inputs regarding our Privacy Policy or our Services provided to you. If you would like to contact us for any reasons please e-mail us at contact@trekmunk.com.
+You can also send your comments and responses by post using the below-mentioned address:
+Trekmunk Private Limited
+38/12, East Patel Nagar, Central Delhi, Delhi - 110008, India </p>
+
+</div>
+
+<h2 style="text-align:center;color: chocolate;font-size: 30px;">OUR TEAM</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="./images/509c2cbb-746d-4c54-8497-1cf6278ee668.jpeg" alt="Jane" style="width:100%">
+      <div class="container">
+        <h2>Jane Doe</h2>
+        <p class="title">CEO & Founder</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>jane@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="./images/509c2cbb-746d-4c54-8497-1cf6278ee668.jpeg" alt="Mike" style="width:100%">
+      <div class="container">
+        <h2>Mike Ross</h2>
+        <p class="title">Art Director</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>mike@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="./images/509c2cbb-746d-4c54-8497-1cf6278ee668.jpeg" alt="John" style="width:100%">
+      <div class="container">
+        <h2>John Doe</h2>
+        <p class="title">Designer</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>john@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
