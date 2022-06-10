@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+.h1{
+    color: aqua;
+}
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+.about-section h1{
+    color:red;
+    font-size: 70px;
+    text-decoration: solid;
+}
+.about-section h2{
+    font-size: 30px;
+    color:green;
+    text-decoration:double;
+}
+.about-section p{
+    font-size: 20px;
+    color:yellow;
+}
+
+</style>
+</head>
+<body>
+
+<div class="about-section">
+  <h1>Trek OF CAUSE</h1>
+  <h2>Our Agenda:</h2>
+  <h3>1. Medical Help</h3>
+  <p>
+After receiving such a positive response from the last trek for a cause initiative, we decided to set up yet another round of medical camps in the same villages to provide them with regular medical facilities and aspirin. This time we plan on taking it by a notch by setting up the camp for longer duration and providing medications for all the more different kinds of illnesses and taking a larger number of doctors then what we had last time. Our future plans include setting up these medical camp every six months to ensure regular treatment for the village folk. We aim to adopt these villages for their overall development which will include health facilities, education, and other basic amenities.
+   </p>
+   <h3>2. Trash-free Himalayas</h3>
+   <p>
+
+
+    Due to the increase in the number of adventure seekers the Himalayas attract every year, the amount of waste being generated is also increasing. Worst of it, plastic. On commercial and frequently trekked upon trails, the story is even worse and sometimes, the litter is just a painful site. Wrappers of chocolates, plastic bottles, cigarette butts, sanitary pads, beverage aluminum cans and what not! The decomposition time of these things is unimaginable and the thought of all this trash lying in the mountains we worship for years and years is a sad thought. Out of the things listed above, cigarette butts take the shortest time to decompose (10-12 years) whereas plastic bags take the longest (800-1000 years). Is that the kind of impact all the self-labeled passionate trekkers are willing to leave behind?
+    
+    
+    Over the coming years, we plan to add more and more things to our list of agendas where we aim to adopt high altitude villages and work towards their overall development with the help of volunteers and like-minded people who find solace not just by trekking high but also, serving the people who rule those mountains.
+    
+    </p>
+   
+  
+</div>
+
+<h2 style="text-align:center;color: chocolate;font-size: 30px;">OUR TEAM</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="./images/509c2cbb-746d-4c54-8497-1cf6278ee668.jpeg" alt="Jane" style="width:100%">
+      <div class="container">
+        <h2>Jane Doe</h2>
+        <p class="title">CEO & Founder</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>jane@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="./images/509c2cbb-746d-4c54-8497-1cf6278ee668.jpeg" alt="Mike" style="width:100%">
+      <div class="container">
+        <h2>Mike Ross</h2>
+        <p class="title">Art Director</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>mike@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="./images/509c2cbb-746d-4c54-8497-1cf6278ee668.jpeg" alt="John" style="width:100%">
+      <div class="container">
+        <h2>John Doe</h2>
+        <p class="title">Designer</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>john@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
