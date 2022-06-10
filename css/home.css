@@ -1,0 +1,22 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    width: 100%;
+    min-height: 300vh;
+    background-color: darkgoldenrod;
+}
+
+.container .title{
+    width: 100px;
+    margin: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font: 20px;
+    color: blue;
+    letter-spacing: 1.5px;
+    padding: 100px 0px;
+}
